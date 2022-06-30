@@ -1,5 +1,4 @@
-#!/bin/bash
-#include <stdio>
+#include <stdio.h>
 
 int main(void)
 {
