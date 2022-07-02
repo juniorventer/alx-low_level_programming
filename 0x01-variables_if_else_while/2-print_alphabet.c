@@ -1,18 +1,18 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - a main function to print the 10 digit of common numbers
  *
- * Return: Always 0 (Success/correct)
+ * Return: Always returns to zero
+ *
  */
-int main(void);
-{	int n;
-char alphabet;
 
-for (alphabet = 'a'; alphabet <= 'z' alphabet++)
+int main(void);
 {
-putchar(alphabet);
+	int (a = '0')
+	while (a <= '9')
+	char alphabet;
+
+{putchar (alphabet = 'a'; alphabet <= 'z' alphabet++)
 }
 
 putchar('\n');
