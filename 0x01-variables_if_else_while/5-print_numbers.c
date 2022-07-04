@@ -5,9 +5,10 @@
  * Return: always 0
 */
 int main(void)
-{	int a - 0;
-	for (; a < 10 ; a++)
-	printf("%d", a);
-	putchar ('\n');
+{	int n;
+	for (n = 0; n < 10; n++)
+{
+	printf("%d\n", n);
+}
 	return (0);
 }
