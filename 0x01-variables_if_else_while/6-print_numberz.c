@@ -1,14 +1,16 @@
 #include<stdio.h>
 /**
- * main - entry point 
+ * main - entry point
  *
  * return: always 0
 */
 int main(void)
 {
-	int a - 0;
-	for (; a < 10 ; a++)
-	putchar('0' + a);
-	putchar('\n');
+	int ch;
+	for (ch = 48; ch <= 57; ch++)
+{
+	printf("%d", n);
+}
+	printf('\n');
 return (0);
 }
