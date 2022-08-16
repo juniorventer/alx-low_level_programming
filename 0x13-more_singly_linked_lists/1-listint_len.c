@@ -9,15 +9,13 @@
 */
 size_t listint_len(const listint_t *h)
 {
-	int count = 0;
+	const listint_t *cursor = h;
+	size_t count = 0;
 
-	if (h != NULL)
+	while (cursor != NULL)
 {
-	while (h)
-{
-	h = h->next;
-	count++;
-}
+	count += 1;
+	cursor = cursor->next;
 }
 
 	return (count);
