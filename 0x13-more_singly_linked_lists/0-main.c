@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <string.h>
-#include <studio.h>
-#include "list.h"
+#include <stdio.h>
+#include "lists.h"
 
 /**
  * main -check the code for Holberton School students
@@ -12,10 +12,10 @@ int main(void)
 {
 	listint_t *head;
 	listint_t *new;
-	listint_t hello ={8, NULL};
+	listint_t hello = {8, NULL};
 	size_t n;
 
-	head =&hello;
+	head = &hello;
 	new = malloc(sizeof(listint_t));
 	if (new == NULL)
 
