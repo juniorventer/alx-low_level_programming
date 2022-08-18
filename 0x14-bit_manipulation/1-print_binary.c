@@ -10,36 +10,21 @@
 */
 void print_binary(unsigned long int n)
 {
-	if (n == 0)
+	int i, count = 0;
+	unsigned long int current;
+
+	for (i = 63; i >= 0; i--)
 {
-	_putchar('0');
+	current = n >> i;
 
-	return;
-}
-	_divide(n);
-}
-
-/**
- * _divide - ...
- * @n: ...
- *
- * Return: ...
-*/
-void _divide(unsigned long int n)
+	if (current & 1)
 {
-	if (n < 1)
-
-	return;
-
-
-
-	_divide(n >> 1);
-
-	if (n & 1)
-
 	_putchar('1');
-
-	else
-
+	count++;
+}
+	else if (count)
+	_putchar('0');
+}
+	if (!count)
 	_putchar('0');
 }
