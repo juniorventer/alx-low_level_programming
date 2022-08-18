@@ -1,5 +1,6 @@
 #ifndef _BIT_MANIP_
 #define _BIT_MANIP_
+#include "main.h"
 
 int _strlen(const char *s);
 unsigned int binary_to_uint(const char *b);
